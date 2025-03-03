@@ -1,0 +1,25 @@
+name: crud_operations
+description: "A Flutter task management app with CRUD, priority sorting, and state management."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2  # For saving theme preferences
+  provider: ^6.1.2  # For state management
+  fluttertoast: ^8.2.4  # Toast messages for notifications
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
